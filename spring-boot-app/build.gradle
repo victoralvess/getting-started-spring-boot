@@ -5,14 +5,14 @@
  * Learn how to create Gradle builds at https://guides.gradle.org/creating-new-gradle-builds/
  */
 plugins {
-  id: 'java'
-  id: 'org.springframework.boot'
-  id: 'io.spring.dependency-management'
+  id "java"
+  id "org.springframework.boot" version "2.0.1.RELEASE"
+  id "io.spring.dependency-management" version "1.0.5.RELEASE"
 }
 
 bootJar {
-  baseName = 'springboot'
-  version = '0.1.0'
+  baseName = "springboot"
+  version = "0.1.0"
 }
 
 repositories {
